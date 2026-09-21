@@ -12,7 +12,7 @@ export function sniffImage(buffer: Buffer): { extension: string } | null {
   if (header.startsWith("ffd8ff")) return { extension: "jpg" };
   if (header.startsWith("47494638")) return { extension: "gif" };
   if (header.startsWith("52494646")) return { extension: "webp" };
-  
+   
   return null; // إذا لم تكن الصورة مدعومة
 }
 
@@ -44,7 +44,6 @@ export function getStorage() {
       }
     },
     
-    // دالة حذف احتياطية في حال طلبها النظام لاحقاً
     async delete(key: string) {
       try {
         const filepath = path.join(process.cwd(), "public", "storage", key);
