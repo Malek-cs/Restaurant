@@ -1,4 +1,3 @@
-إليك نموذج README.md مصمم خصيصاً للمؤسسات والشركات (Enterprise Level). هذا النموذج يركز على لغة الأعمال (العائد على الاستثمار، الأمان، إدارة الصلاحيات، والبنية التحتية) ليعطي انطباعاً بأن النظام متكامل ومبني لمعايير الشركات الكبرى.
 
 🏛️ Lumiere Restaurant OS - Enterprise Edition
 The Next-Generation Operating System for Modern Dining & Quick-Service Establishments.
